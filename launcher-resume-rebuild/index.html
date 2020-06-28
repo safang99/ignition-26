@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <!-- <meta charset="utf-8"> -->
+  <link rel="stylesheet" href="css/foundation.css">
+  <link rel="stylesheet" href="style.css">
+  <title>Stephen Fang</title>
+</head>
+
+<body>
+
+  <div class="row column">
+    <img class="self-photo" src="images/Salzburg_augustiner_brau.jpg" alt="standing in front of beer house">
+    <h3>Stephen Fang</h3>
+
+    <div class="about-me">
+      <p class="address">4 Emerson Pl Boston, MA 02114</p>
+      <p class="email">safang99@gmail.com</p>
+      <a href="https://www.facebook.com/stephen.fang.332" target="_blank">Facebook</a>
+      <a href="https://www.linkedin.com/" target="_blank">Linkdein</a>
+      <a href="https://twitter.com/" target="_blank">Twitter</a>
+      <h3 class="subj-header">Work Experience</h3>
+      <ul class="jobs">
+        <li> Independent Personal Trainer, Somerville, MA<br>May 2011 - July 2019</li>
+      </ul>
+
+      <h3 class="subj-header">Education</h3>
+      <ul>
+        <li>University of Massachusetts, Amherst, MA, B.S. Nutrition 2010</li>
+      </ul>
+    </div>
+
+    <div class="small-12 medium-4 end columns">
+      <div class="callout primary">
+        <a href="#" class="button" id="project-button" data-toggle="project1 project2">Project</a>
+        <ul class="hidden-projects">
+          <li id="project1" class="hide" data-toggler=".hide">Project 1</li>
+          <li id="project2" class="hide" data-toggler=".hide">Project 2</li>
+        </ul>
+        <a href="#" class="button" id="quote-button" onclick="randomQuote()">Quote</a>
+        <ul>
+          <li id="putQuoteHere">random quote</li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="small-12 medium-12 columns">
+      <form action="#" method="post">
+        <div class="grid-container">
+          <div class="medium-6 columns">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="user_name" />
+            <div>
+
+              <div class="medium-6 columns">
+                <label for="location">location:</label>
+                <input type="location" id="location" name="user_location" />
+              </div>
+              <div class="medium-12 columns">
+                <label for="msg">Message:</label>
+                <textarea id="msg" name="user_message"></textarea>
+              </div>
+            </div>
+          </div>
+        </div>
+     </div>
+
+    
+
+  </div>
+
+
+
+
+
+  <script src="js/vendor/jquery.js"></script>
+  <script src="js/vendor/what-input.js"></script>
+  <script src="js/vendor/foundation.js"></script>
+  <script src="js/app.js">
+  </script>
+  <script src="main.js"></script>
+</body>
+
+</html>

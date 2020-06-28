@@ -1,0 +1,14 @@
+let recyclablesPile = [ "space banana peel","paper", "plastic", "plastic", "glass", "styrofoam coffee mug", "old dilithium battery", "metal can", "paper"]
+
+let filterOutRecyclables = (allRecyclables)=>{
+let filterFunction = (allRecyclables)=>{
+    allRecyclables.forEach((recyclable)=>{return !recyclable.includes("plastic","paper","glass", "metal can")}
+    )
+}
+
+let goodRecyclables = recyclablesPile.filter(filterFunction)
+cargoHold.recyclables = goodRecyclables
+console.log(goodRecyclables)
+}
+
+ console.log(filterOutRecyclables(recyclablesPile))

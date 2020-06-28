@@ -1,0 +1,69 @@
+
+div {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.tree-wrapper {
+  position: absolute;
+  left: 45%
+}
+
+.branch {
+  background-color: green;
+  height: 30px;
+  border-radius: 30px;
+  position: relative;
+}
+
+div.branch-0 {
+  width: 30px;
+  left: -15px;
+  /* margin-left: 162px */
+}
+
+div.branch-1 {
+  width: 50px;
+  left: -25px
+  /* margin-left: 150px */
+}
+
+div.branch-2 {
+  width: 75px;
+  left: -37.5px
+  /* margin-left: 137px */
+}
+
+div.branch-3 {
+  width: 125px;
+  left: -62.5px
+  /* margin-left: 108.5px */
+}
+
+div.branch-4 {
+  width: 200px;
+  left: -100px
+  /* margin-left: 75px */
+}
+
+div.branch-5 {
+  width: 275px;
+  left: -137.5px
+  /* margin-left: 33.5px */
+}
+
+div.branch-6 {
+  width: 350px;
+  left: -175px
+}
+
+div.trunk {
+  width: 30px;
+  height: 90px;
+  background-color: brown;
+  border-radius: 30px;
+  position: relative;
+  margin-top: 10px;
+  left: -15px
+  /* margin-left: 150px */
+}

@@ -1,0 +1,18 @@
+body {
+  color: gray
+}
+
+.page-header {
+  text-align: left;
+  color: aqua
+}
+
+.self-photo {
+  width: 300px;
+  height: 300px;
+}
+
+.subj-header {
+  font-weight: bold;
+  font-size: 20px
+}
